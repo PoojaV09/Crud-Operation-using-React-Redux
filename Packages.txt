@@ -1,0 +1,22 @@
+1] npx create-react-app my-app
+
+2]  cd my-app
+
+3] npm install -g json-server
+
+4] Creating a json file.
+
+5] json-server --watch db.json --port 3001
+
+6] Now that we have our "json-server" running under "localhost:3001/posts" we can do our consultation.
+
+
+
+list of packages :-
+1. json server 
+2. redux 
+3. axios  
+4. logger 
+5. thunk 
+6. material-ui 
+7. router 

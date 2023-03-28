@@ -1,0 +1,51 @@
+.input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .button{
+    border: none;
+    height: 35px;
+    width: 70px;
+    margin: 0 3px;
+    font-size: 20px;
+    background: linear-gradient(to left,#F06292,#e91e63,#F06292);
+    box-shadow: 5px 5px 10px rgba(0,0,0,-3);
+    font-family: "montserrat", sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-size: 200%;
+    transition: 0.6S;
+  }
+
+  .button:hover{
+    background-position: right;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,.8);
+  }
+
+  .buttonadd{
+    border: none;
+    height: 35px;
+    width: 10px;
+    margin: 0 3px;
+    border: none;
+    font-size: 20px;
+    background: linear-gradient(to left,#F06292,#e91e63,#F06292);
+    box-shadow: 8px 8px 15px rgba(0,0,0,-3);
+    font-family: "montserrat", sans-serif;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-size: 200%;
+    transition: 0.6S;
+  }
+
+  .buttonadd:hover{
+    background-position: right;
+  }

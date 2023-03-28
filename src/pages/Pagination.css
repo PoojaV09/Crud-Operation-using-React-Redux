@@ -1,0 +1,31 @@
+.pagination {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.pagination button {
+    width: 35px;
+    height:35px;
+    font-family: inherit;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0 7px;
+    border-radius: 3px;
+    border-color: #101010;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: linear-gradient(to left,#FDA7DF,#9980FA,#FDA7DF);
+    color: #111;
+    border-color: #eee;
+}
+
+.pagination button.active {
+    font-weight: 900;
+    border: 1px solid #EC407A;
+    background-position: right;
+    box-shadow: 3px 3px 6px 1px rgba(0,0,0,.8);
+    background: linear-gradient(to left,#F06292,#EC407A,#F06292);
+    color: #eee;
+}
